@@ -1,0 +1,46 @@
+{
+  "semi": false,
+  "printWidth": 100,
+  "plugins": ["prettier-plugin-svelte"],
+  "overrides": [
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "svelte",
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "arrowParens": "avoid"
+      }
+    },
+    {
+      "files": "*.vue",
+      "options": {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "arrowParens": "avoid"
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "arrowParens": "avoid"
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "arrowParens": "avoid"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "scss"
+      }
+    }
+  ]
+}
